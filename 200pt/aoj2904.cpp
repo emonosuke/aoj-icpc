@@ -5,14 +5,6 @@
 
 using namespace std;
 
-using ll = long long;
-
-const ll MOD = 1000000007;
-#define mod(x) (x % MOD + MOD) % MOD
-
-const int dh[4] = {+1, 0, -1, 0};
-const int dw[4] = {0, -1, 0, +1};
-
 // N: 0, E: 1, S: 2, W: 3
 const int DEGMOD = 4;
 vector<bool> visitR(4);
@@ -31,8 +23,6 @@ int move(int deg, char command)
 
 int main()
 {
-    cin.tie(0);
-    ios_base::sync_with_stdio(false);
     string S;
     cin >> S;
     int ans = 0;

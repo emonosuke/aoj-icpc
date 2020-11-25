@@ -5,11 +5,6 @@
 
 using namespace std;
 
-using ll = long long;
-
-const ll MOD = 1000000007;
-#define mod(x) (x % MOD + MOD) % MOD
-
 const int MAX_H = 30, MAX_W = 30;
 int H, W;
 
@@ -54,8 +49,6 @@ int solve()
 
 int main()
 {
-    cin.tie(0);
-    ios_base::sync_with_stdio(false);
     vector<int> ans;
     while (true)
     {

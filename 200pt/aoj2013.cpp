@@ -1,17 +1,9 @@
-// Osaki
+// Osaki (200)
 // 2020/11/24
 
 #include <bits/stdc++.h>
 
 using namespace std;
-
-using ll = long long;
-
-const ll MOD = 1000000007;
-#define mod(x) (x % MOD + MOD) % MOD
-
-const int dh[4] = {+1, 0, -1, 0};
-const int dw[4] = {0, -1, 0, +1};
 
 const int MAX_T = 24 * 60 * 60;
 
@@ -25,8 +17,6 @@ int convert_time(string str)
 
 int main()
 {
-    cin.tie(0);
-    ios_base::sync_with_stdio(false);
     vector<int> ans;
     while (true)
     {
